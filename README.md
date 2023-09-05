@@ -9,12 +9,12 @@ Aplicacion API REST con acceso a base de datos PostgreSQL para persistir la info
 
 El acceso se puede dar desde Postman o navegador
 
-##Entidad Persona
+## Entidad Persona
 1. Persona:
 Atributos:
-id
-Nombre
-Apellido
+id,
+Nombre,
+Apellido,
 Edad
 2. PersonRepository
 3. PersonController
