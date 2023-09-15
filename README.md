@@ -25,15 +25,10 @@ Edad
    3. Buscar por nombre: findByName
    4. Buscar por apellido: findByLastname
    5. Buscar por edad: findByAge
- 
- Crear nuevo cliente
-    6. Create
-
- Borrar Cliente
+   6. Crear nuevo cliente: create
    7. Borrar por id: deleteById
    8. Borrar por nombre: deleteName
    9. Borrar por apellido: deleteLastname
    10. Borrar por edad: deleteByEdad
-   11. Borra todos
-   Actualizar Cliente
-   12. Update
+   11. Borra todos: deleteAll
+   12. Actualizar Cliente: update
