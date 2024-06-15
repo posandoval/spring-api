@@ -4,6 +4,7 @@ Dependencias:
 2. Spring Web
 3. Spring Data JPA
 4. Swagger-UI
+5. Mysql
 
 Aplicacion API REST con acceso a base de datos PostgreSQL para persistir la informacion
 
@@ -16,6 +17,7 @@ id,
 Nombre,
 Apellido,
 Edad
+
 2. PersonRepository
 3. PersonController
 4. PersonaService
@@ -32,3 +34,11 @@ Edad
    10. Borrar por edad: deleteByEdad
    11. Borra todos: deleteAll
    12. Actualizar Cliente: update
+  
+Ejecución:
+
+Clonear el repositorio del proyecto (git clone)
+Instalar las dependencias necesarias (Maven)
+Ejecutar la aplicación desde la línea de comandos: mvn spring-boot:run
+Acceder a la aplicación en la URL: http://localhost:8080/api/
+Acceder a swagger en la url: http://localhost:8080/swagger-iu.html 
